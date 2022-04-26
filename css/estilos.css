@@ -105,6 +105,7 @@ header a:hover{
 }
 
 .quienessomos{
+    float: left;
     flex-direction: row;
     margin: 10px 20px;
     text-align: center;
@@ -112,6 +113,7 @@ header a:hover{
 }
 
 .dondeestamos{
+    float: left;
     flex-direction: row;
     margin: 10px 20px;
     text-align: center;
@@ -119,6 +121,7 @@ header a:hover{
 }
 
 .contactanos{
+    float: left;
     flex-direction: row;
     margin: 10px 20px;
     text-align: center;
