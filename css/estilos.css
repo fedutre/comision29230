@@ -37,7 +37,7 @@ h2{
 .galeriarecetas:hover{
     border: 1px solid lightcoral;
     transform: scale(1.2);
-    transition: 1s;
+       transition: 1s;
 }
 
 .galeria img{
