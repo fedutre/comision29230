@@ -118,7 +118,7 @@ header ul li a{
 }
 
 header a:hover{ 
-    color: black;
+    color: orange;
 }
 
 .logopyp{
@@ -190,7 +190,7 @@ footer{
     text-align: center;
     height: center;
     width: 100%;    
-    background-color: white
+    background-color: white;
     font-size: 50px;
     text-align: center;
     padding-top: 20px;    
@@ -298,3 +298,43 @@ textarea{
     border: 1px solid lightcoral;
     transform: scale(1.2); 
 }
+
+.card{
+    float: left;
+    margin: 20px;
+}
+
+.card-img-top{
+    width: auto;
+    height: auto;
+}
+
+.btn-primary{
+    background-color: orange;
+    border: none;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: black;
+}
+
+.media{
+    padding: 10px;
+    
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
