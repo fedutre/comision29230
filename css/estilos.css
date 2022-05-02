@@ -332,6 +332,13 @@ textarea{
     
 }
 
+.jumbotron{
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    
+}
+
 @media (max-width: 600px) {
     .quienessomos{
         width: auto;
@@ -347,6 +354,26 @@ textarea{
 @media (max-width: 600px) {
     .contactanos{
         width: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .grid-container{
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (max-width: 300px){
+    .grid-container{
+    grid-template-columns: 120px;
+    grid-template-rows: 1fr;
+    }
+}
+
+@media (max-width: 300px){
+    .flex-container{
+        flex-direction: column;
     }
 }
 
