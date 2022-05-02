@@ -331,3 +331,27 @@ textarea{
     padding: 10px;
     
 }
+
+@media (max-width: 600px) {
+    .quienessomos{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .dondeestamos{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .contactanos{
+        width: auto;
+    }
+}
+
+@media (max-width: 600px){
+    .footer{
+        width: 50%;
+    }
+}
