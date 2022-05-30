@@ -4,7 +4,14 @@
 }
 
 body {
-  background-color: white;
+  background-color: #4ABDAC;
+}
+
+h1 {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: orange;
 }
 
 h2 {
@@ -31,10 +38,11 @@ span:hover {
 }
 
 header {
-  background-color: white;
-  height: 80px;
+  background-image: url(img/Logo.png);
+  background-color: #4ABDAC;
+  height: auto;
   width: 100%;
-  padding-top: 10px;
+  padding: 80px;
 }
 
 header .logo {
@@ -65,7 +73,7 @@ header ul li a, header ul li .logo {
 .barra {
   text-shadow: 1px 2px 2px grey, 0 0 25px orange, 0 0 5px orange;
   float: right;
-  margin-right: auto;
+  margin-right: 120px;
 }
 
 header a:hover, header .logo:hover {
@@ -182,15 +190,17 @@ img {
 
 footer {
   text-shadow: 1px 2px 2px grey, 0 0 25px orange, 0 0 5px orange;
-  padding: 0px;
   float: left;
   text-align: center;
   height: center;
   width: 100%;
-  background-color: white;
+  background-color: black;
   font-size: 50px;
   text-align: center;
   padding-top: 20px;
+}
+footer i {
+  color: orange;
 }
 
 footer p {
@@ -357,14 +367,19 @@ textarea {
     grid-template-columns: 120px;
     grid-template-rows: 1fr;
   }
-}
-@media (max-width: 300px) {
+
   .flex-container {
     flex-direction: column;
+  }
+
+  .contactanos {
+    text-align: center;
   }
 }
 @media (max-width: 600px) {
   .footer {
     width: 50%;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
