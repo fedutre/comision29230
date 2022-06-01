@@ -327,13 +327,18 @@ textarea {
   height: auto;
 }
 
+.fa-whatsapp-square {
+  color: green;
+  font-size: 50px;
+}
+
 .btn-primary {
   background-color: orange;
   border-radius: 50%;
 }
 
-.fa-brands i {
-  color: green;
+i .fa-brands .fa-whatsapp-square {
+  background-color: green;
 }
 
 .btn-primary:hover {
@@ -349,6 +354,7 @@ textarea {
   background-color: orange;
   color: white;
   margin: 10px;
+  padding: 20px;
 }
 
 @media (max-width: 600px) {
