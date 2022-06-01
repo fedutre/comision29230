@@ -342,8 +342,12 @@ textarea {
 
 .btn-primary {
     background-color: orange;
-    border: none;
+    border-radius: 50%;
 }
+.fa-brands i{
+    color: green;
+}
+
 
 .btn-primary:hover {
     color: white;
