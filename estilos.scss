@@ -126,6 +126,8 @@ header a:hover {
 }
 
 .galeria {
+    background-color: white;
+    border-radius: 20px;
     margin: 20px 20px;
     text-align: center;
     box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 black;
@@ -133,6 +135,12 @@ header a:hover {
     float: left;
     width: auto;
     height: auto;
+}
+
+.pie{
+    border-radius: 100px;
+    background-color: orange;
+    margin: 5px;
 }
 
 .galeriarecetas {
@@ -338,6 +346,12 @@ textarea {
 .card-img-top {
     width: auto;
     height: auto;
+}
+
+.card-body{
+    border-radius: 50px;
+    background-color: orange;
+    margin: 20px;
 }
 
 .fa-whatsapp-square{
