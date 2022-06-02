@@ -373,22 +373,30 @@ i .fa-brands .fa-whatsapp-square {
 }
 
 @media (max-width: 600px) {
+  header {
+    width: auto;
+    margin: 20px;
+    float: left;
+    text-align: center;
+  }
+
   .quienessomos, .dondeestamos, .contactanos {
     width: auto;
   }
-}
-@media (max-width: 600px) {
+
+  .footer {
+    width: 50%;
+  }
+
   .dondeestamos {
     width: auto;
   }
-}
-@media (max-width: 600px) {
+
   .contactanos {
     width: auto;
     text-align: center;
   }
-}
-@media (max-width: 600px) {
+
   .grid-container {
     grid-template-columns: 120px 120px;
     grid-template-rows: 1fr 1fr;
@@ -406,11 +414,6 @@ i .fa-brands .fa-whatsapp-square {
 
   .contactanos {
     text-align: center;
-  }
-}
-@media (max-width: 600px) {
-  .footer {
-    width: 50%;
   }
 }
 
