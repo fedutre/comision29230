@@ -162,17 +162,16 @@ header a:hover, header .logo:hover {
   height: 150px;
 }
 
-.galeria:hover {
-  border: 1px solid grey;
-  transform: scale(1.2);
-}
-
 .quienessomos, .contactanos, .dondeestamos {
+  background-color: white;
+  border-radius: 10px;
   float: left;
   flex-direction: row;
-  margin: 10px 20px;
+  margin: 20px;
+  padding: 10px;
   text-align: center;
   width: auto;
+  height: auto;
 }
 
 .imagenqs {
@@ -372,6 +371,14 @@ i .fa-brands .fa-whatsapp-square {
   padding: 20px;
 }
 
+@media (max-width: 1200px) {
+  header {
+    width: auto;
+    margin: 20px;
+    float: left;
+    text-align: center;
+  }
+}
 @media (max-width: 600px) {
   header {
     width: auto;
@@ -401,6 +408,15 @@ i .fa-brands .fa-whatsapp-square {
     grid-template-columns: 120px 120px;
     grid-template-rows: 1fr 1fr;
   }
+
+  .logo {
+    text-align: center;
+  }
+
+  .barra {
+    float: none;
+    text-align: left;
+  }
 }
 @media (max-width: 300px) {
   .grid-container {
@@ -414,6 +430,15 @@ i .fa-brands .fa-whatsapp-square {
 
   .contactanos {
     text-align: center;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .barra {
+    float: none;
+    text-align: left;
   }
 }
 
