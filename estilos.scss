@@ -401,6 +401,10 @@ i{
 }
 
 @media (max-width: 600px) {
+    .carousel{
+        padding: 50px;
+        margin: auto;
+    }
     header{
         width: auto;
         margin: 20px;
@@ -451,5 +455,9 @@ i{
         float: none;
         text-align: left;
         
+    }
+    .carousel slide{
+        padding: 50px;
+        margin: auto;
     }
 }
